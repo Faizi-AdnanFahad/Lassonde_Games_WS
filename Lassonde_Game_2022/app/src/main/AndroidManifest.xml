@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightStation">
         <activity
-            android:name=".SelfDrivingCars"
+            android:name=".TrafficReduction_12_13"
+            android:exported="false" />
+        <activity
+            android:name=".SelfDrivingCars_10_11"
             android:exported="false" />
         <activity
             android:name=".GamePage"

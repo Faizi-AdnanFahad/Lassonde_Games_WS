@@ -20,7 +20,7 @@ public class Trans3Cat_10_11 extends AppCompatActivity {
         this.buttonSelfDrivingCars_10_11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Trans3Cat_10_11.this, SelfDrivingCars.class);
+                Intent intent = new Intent(Trans3Cat_10_11.this, SelfDrivingCars_10_11.class);
                 startActivity(intent);
             }
         });

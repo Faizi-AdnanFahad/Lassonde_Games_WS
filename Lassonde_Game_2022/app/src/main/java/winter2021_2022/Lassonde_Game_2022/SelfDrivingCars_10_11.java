@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SelfDrivingCars extends AppCompatActivity {
+public class SelfDrivingCars_10_11 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_self_driving_cars);
+        setContentView(R.layout.activity_self_driving_cars_10_11);
     }
 }
