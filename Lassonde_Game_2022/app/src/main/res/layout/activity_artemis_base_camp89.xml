@@ -18,8 +18,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="108dp"
-        android:layout_height="72dp"
+        android:layout_width="136dp"
+        android:layout_height="78dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="89 Artemis Base Camp"
+        android:text="Artemis Base Camp"
         android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -79,7 +79,7 @@
         android:layout_marginStart="51dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="39dp"
-        android:text="What is flying cars flying cars flying cars flying cars flgying cars?"
+        android:text="When did the construction for Artemis Base Camp started?"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -103,19 +103,19 @@
             android:id="@+id/radioButtonMoon1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 1" />
+            android:text="2026" />
 
         <RadioButton
             android:id="@+id/radio_button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 2" />
+            android:text="2028" />
 
         <RadioButton
             android:id="@+id/radio_button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 3" />
+            android:text="2027" />
 
     </RadioGroup>
 

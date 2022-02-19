@@ -7,22 +7,29 @@
     tools:context=".Trans3Cat_8_9"
     android:background="@drawable/light_blue">
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="211dp"
-        android:layout_height="86dp"
-        android:layout_marginTop="312dp"
-        android:background="@drawable/textview_border"
-        android:text="GAME"
-        android:textAlignment="center"
-        android:textColor="#070549"
-        android:textSize="60sp"
-        android:textStyle="bold"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/selfDrivingCarsGIF"
+        android:layout_width="383dp"
+        android:layout_height="552dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/game"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonReturnToAge"
+        android:layout_width="210dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#6A1B9A"
+        android:text="Click to explore more exhibits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selfDrivingCarsGIF" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
