@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightStation">
         <activity
-            android:name="winter2021_2022.Lassonde_Game_2022.LoginPage"
+            android:name=".TranspSpace8_9"
             android:exported="false" />
         <activity
-            android:name="winter2021_2022.Lassonde_Game_2022.MainPage"
+            android:name=".AgePage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
