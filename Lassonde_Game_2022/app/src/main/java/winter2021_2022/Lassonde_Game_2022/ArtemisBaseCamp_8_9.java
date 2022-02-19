@@ -7,15 +7,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class FlyinCars_info_8_9 extends AppCompatActivity {
+public class ArtemisBaseCamp_8_9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flyin_cars_info89);
+        setContentView(R.layout.activity_artemis_base_camp89);
 
         final RadioGroup radio = (RadioGroup) findViewById(R.id.radio_group);
         radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -42,7 +41,7 @@ public class FlyinCars_info_8_9 extends AppCompatActivity {
                         radioButton3.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                Intent intent = new Intent(FlyinCars_info_8_9.this, GamePage.class);
+                                Intent intent = new Intent(ArtemisBaseCamp_8_9.this, GamePage.class);
                                 startActivity(intent);
                             }
                         });
@@ -50,12 +49,5 @@ public class FlyinCars_info_8_9 extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    /* this mutator sets the output label */
-    private void setContentsOfTextView(int id, String newContents) {
-        View view = findViewById(id);
-        TextView textView = (TextView) view;
-        textView.setText(newContents);
     }
 }

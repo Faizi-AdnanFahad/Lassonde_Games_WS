@@ -5,22 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
-public class Space3Cat_12_13 extends AppCompatActivity {
-    private Button buttonSpaceVenus_12_13;
+public class Venus_12_13 extends AppCompatActivity {
+    private TextView textViewExhibitC1andC2_space;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_space3_cat1213);
+        setContentView(R.layout.activity_venus1213);
 
         // changing from Space Tourism 12 - 13 -> 3 Categories of Space Tourism
-        this.buttonSpaceVenus_12_13 = findViewById(R.id.buttonSpaceVenus_12_13);
-        this.buttonSpaceVenus_12_13.setOnClickListener(new View.OnClickListener() {
+        this.textViewExhibitC1andC2_space = findViewById(R.id.textViewExhibitC1andC2_space);
+        this.textViewExhibitC1andC2_space.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Space3Cat_12_13.this, Venus_12_13.class);
+                Intent intent = new Intent(Venus_12_13.this, Trans3Cat_12_13.class);
                 startActivity(intent);
             }
         });

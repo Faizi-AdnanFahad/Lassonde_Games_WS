@@ -16,21 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="89 Flying Cars:"
-        android:textColor="#070549"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="108dp"
@@ -38,10 +23,25 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flyingcar" />
+        app:srcCompat="@drawable/base_camp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89 Artemis Base Camp"
+        android:textColor="#070549"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
 
     <TextView
         android:id="@+id/textInfoFlyingCars_8_9"
@@ -49,7 +49,7 @@
         android:layout_height="87dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/textview_border"
-        android:text=" Flying Cars, a breathtaking accomplishment that allows us to spend less time travelling. A new hybrid mode of transportation has changed the way we move.These vehicles are lightweight which makes them extremely fast."
+        android:text="After the successful launch of SpaceX’s Starship and the 2024 Moon landing, construction on NASA's Artemis Base Camp started in 2027 and should be complete by 2030. These stations will be used to conduct research in lower points of gravity."
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +114,7 @@
         <RadioButton
             android:id="@+id/radio_button3"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="wrap_content"
             android:text="Option 3" />
 
     </RadioGroup>

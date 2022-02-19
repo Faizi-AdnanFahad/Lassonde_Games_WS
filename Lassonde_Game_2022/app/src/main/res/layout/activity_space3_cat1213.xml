@@ -9,28 +9,28 @@
 
 
     <Button
-        android:id="@+id/buttonSpace3_12_13"
+        android:id="@+id/buttonSpaceVenus_12_13"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="356dp"
         android:layout_marginEnd="165dp"
         android:backgroundTint="#070549"
-        android:text="Exhibit 3"
+        android:text="An Inside look of Venus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <Button
-        android:id="@+id/buttonSpace2_12_13"
+        android:id="@+id/buttonSpaceMars_12_13"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="220dp"
         android:layout_marginEnd="165dp"
         android:backgroundTint="#070549"
-        android:text="Exhibit 2"
+        android:text="Mars Landings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,14 +61,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonSpace1_12_13"
+        android:id="@+id/buttonSpaceMoon_12_13"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="165dp"
         android:backgroundTint="#070549"
-        android:text="Exhibit  1"
+        android:text="Artemis Base Camp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"

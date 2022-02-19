@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightStation">
         <activity
+            android:name=".Venus_12_13"
+            android:exported="false" />
+        <activity
+            android:name=".MarsLandings_10_11"
+            android:exported="false" />
+        <activity
+            android:name=".ArtemisBaseCamp_8_9"
+            android:exported="false" />
+        <activity
             android:name=".TrafficReduction_12_13"
             android:exported="false" />
         <activity

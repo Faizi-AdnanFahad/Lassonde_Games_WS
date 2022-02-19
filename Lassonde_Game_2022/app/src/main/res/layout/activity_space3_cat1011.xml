@@ -9,42 +9,42 @@
 
 
     <Button
-        android:id="@+id/buttonSpace2_10_11"
+        android:id="@+id/buttonSpaceMars_10_11"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="236dp"
         android:layout_marginEnd="79dp"
         android:backgroundTint="#070549"
-        android:text="Exhibit 2"
+        android:text="Mars landings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <Button
-        android:id="@+id/buttonSpace1_10_11"
+        android:id="@+id/buttonSpaceMoon_10_11"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="79dp"
         android:backgroundTint="#070549"
-        android:text="exhibit 1"
+        android:text="Artemis Base Camp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <Button
-        android:id="@+id/buttonSpace3_10_11"
+        android:id="@+id/buttonSpaceVenus_10_11"
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="384dp"
         android:layout_marginEnd="79dp"
         android:backgroundTint="#070549"
-        android:text="Exhibit 3"
+        android:text="An inside look of Venus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
         android:layout_width="393dp"
         android:layout_height="63dp"
         android:background="@drawable/textview_border"
-        android:text="1011 Please Chose your Fav Booths:"
+        android:text="1011 Please Choose your Fav Exhibit:"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"
