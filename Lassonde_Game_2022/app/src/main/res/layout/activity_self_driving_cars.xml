@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trans3Cat_8_9"
+    android:background="@drawable/light_blue">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="132dp"
+        android:background="@color/darkblue"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-11 Self-Driving Cars"
+        android:textColor="#070549"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textInfoFlyingCars_8_9"
+        android:layout_width="372dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/textview_border"
+        android:text="When people say self-driving cars, you might think these cars have a mind of their own. Well, that is exactly what the case is. Through the power of coding, we are able to achieve the ability to have driverless cars. With self-driving cars, you can spend the travelling time doing an activity you enjoy or even resting."
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/selfDrivingCarsGIF"
+        android:layout_width="328dp"
+        android:layout_height="259dp"
+        android:layout_marginBottom="108dp"
+        android:src="@drawable/self_driving"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

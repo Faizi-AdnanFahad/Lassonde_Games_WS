@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Trans3Cat_8_9"
-    android:background="@drawable/pink_mountaints">
+    android:background="@drawable/light_blue">
 
 
     <Button
@@ -15,7 +15,7 @@
         android:layout_marginStart="94dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="94dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Self Driving Cars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -29,7 +29,7 @@
         android:layout_marginStart="94dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="94dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Flying Cars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -41,16 +41,18 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="132dp"
-        android:background="@color/lightPink"
+        android:background="@color/darkblue"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="385dp"
+        android:layout_height="65dp"
+        android:background="@drawable/textview_border"
         android:text="1213 Please Chose your Fav Booths:"
-        android:textColor="#AD1457"
+        android:textAlignment="center"
+        android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view"
@@ -65,7 +67,7 @@
         android:layout_marginStart="94dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="94dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Traffic Reduction"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

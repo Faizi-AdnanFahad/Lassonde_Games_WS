@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Trans3Cat_8_9"
-    android:background="@drawable/pink_mountaints">
+    android:background="@drawable/light_blue">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="214dp"
-        android:layout_height="100dp"
+        android:layout_width="211dp"
+        android:layout_height="86dp"
         android:layout_marginTop="312dp"
+        android:background="@drawable/textview_border"
         android:text="GAME"
         android:textAlignment="center"
-        android:textColor="#AD1457"
+        android:textColor="#070549"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

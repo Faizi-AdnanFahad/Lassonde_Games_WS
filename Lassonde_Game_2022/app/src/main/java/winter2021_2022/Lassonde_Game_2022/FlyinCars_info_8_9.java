@@ -6,7 +6,6 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,7 +20,7 @@ public class FlyinCars_info_8_9 extends AppCompatActivity {
         final RadioGroup radio = (RadioGroup) findViewById(R.id.radio_group_1);
         radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
-            private View radioButton1;
+            private View radioButton3;
 
             @SuppressLint("WrongConstant")
             @Override
@@ -32,24 +31,21 @@ public class FlyinCars_info_8_9 extends AppCompatActivity {
 
                 switch (index) {
                     case 0: // first button
-                        Toast.makeText(getApplicationContext(), "Correct! " + index, 500).show();
+                    case 1: // second button
+                        Toast.makeText(getApplicationContext(), "Incorrect! Please read further.", 500).show();
+                        break;
+                    case 2: // third button
+                        Toast.makeText(getApplicationContext(), "Bravo! Enjoy the game.", 500).show();
 
-                        // changing from Transportation 10 - 11 -> 3 Categories of Transportation
-                        this.radioButton1 = findViewById(R.id.radio_button1);
-                        radioButton1.setOnClickListener(new View.OnClickListener() {
+                        // changing from correct Answer 8 - 9 -> Game
+                        this.radioButton3 = findViewById(R.id.radio_button3);
+                        radioButton3.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 Intent intent = new Intent(FlyinCars_info_8_9.this, GamePage.class);
                                 startActivity(intent);
                             }
                         });
-
-                        break;
-                    case 1: // secondbutton
-                        Toast.makeText(getApplicationContext(), "Incorrect! Please " + index, 500).show();
-                        break;
-                    case 2: // thirdbutton
-                        Toast.makeText(getApplicationContext(), "Incorrect! Please select another option! " + index, 500).show();
                         break;
                 }
             }
