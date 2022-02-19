@@ -45,7 +45,7 @@
         android:layout_height="66dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/textview_border"
-        android:text="1011Please choose the topic you are interested in knowing more:"
+        android:text="Please choose the topic you are interested in knowing more:"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"

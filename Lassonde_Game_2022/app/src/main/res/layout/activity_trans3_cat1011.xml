@@ -45,7 +45,7 @@
         android:layout_width="392dp"
         android:layout_height="63dp"
         android:background="@drawable/textview_border"
-        android:text="1011 Please Chose your Fav Booths:"
+        android:text="Please Choose your Favorite Exhibit:"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"

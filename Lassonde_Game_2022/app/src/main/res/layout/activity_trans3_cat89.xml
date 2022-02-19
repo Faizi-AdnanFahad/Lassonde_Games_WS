@@ -13,7 +13,7 @@
         android:layout_height="85dp"
         android:layout_marginBottom="136dp"
         android:backgroundTint="#070549"
-        android:text="Traffic Reduction"
+        android:text="C3) Traffic Reduction"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:backgroundTint="#070549"
-        android:text="Self Driving Cars"
+        android:text="C2) Self Driving Cars"
         app:layout_constraintBottom_toTopOf="@+id/button_traffic_reduction_8_9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_height="85dp"
         android:layout_marginTop="92dp"
         android:backgroundTint="#070549"
-        android:text="Flying Cars"
+        android:text="C1) Flying Cars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
@@ -53,9 +53,9 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="373dp"
-        android:layout_height="54dp"
+        android:layout_height="62dp"
         android:background="@drawable/textview_border"
-        android:text="89 Please Chose your Fav Booths:"
+        android:text="Please Choose your Favorite Exhibit:"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"

@@ -30,17 +30,17 @@
 
     <TextView
         android:id="@+id/labelTopic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="62dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/textview_border"
-        android:text="89Please choose the topic you are interested in knowing more:"
+        android:text="Please choose the topic you are interested in knowing more:"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

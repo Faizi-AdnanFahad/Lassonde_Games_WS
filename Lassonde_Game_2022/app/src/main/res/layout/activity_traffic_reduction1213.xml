@@ -21,7 +21,7 @@
         android:layout_width="346dp"
         android:layout_height="37dp"
         android:background="@drawable/textview_border"
-        android:text="12 - 13 Traffic Reduction"
+        android:text="Traffic Reduction"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"
@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textInfoFlyingCars_8_9"
-        android:layout_width="379dp"
-        android:layout_height="57dp"
+        android:layout_width="400dp"
+        android:layout_height="52dp"
         android:layout_marginTop="64dp"
         android:background="@drawable/textview_border"
         android:text="  Since flying cars have the ability to go on different airways, and can be driverless, the flow of traffic is sped up and people spend less time travelling."

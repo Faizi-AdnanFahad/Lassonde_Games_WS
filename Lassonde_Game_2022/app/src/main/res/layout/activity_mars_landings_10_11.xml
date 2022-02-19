@@ -21,7 +21,7 @@
         android:layout_width="275dp"
         android:layout_height="35dp"
         android:background="@drawable/textview_border"
-        android:text="10 - 11 Mars Landings"
+        android:text="Mars Landings"
         android:textAlignment="center"
         android:textColor="#070549"
         android:textSize="24sp"
@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textInfoFlyingCars_8_9"
-        android:layout_width="374dp"
-        android:layout_height="87dp"
+        android:layout_width="382dp"
+        android:layout_height="78dp"
         android:layout_marginTop="84dp"
         android:background="@drawable/textview_border"
         android:text="With the help of the refuelling station at the moon base, SpaceX Starship is able to make a trip to Mars in as little as 4 months. As astronauts continue to explore the Martian plains, small outposts have been put into place for visitors."
