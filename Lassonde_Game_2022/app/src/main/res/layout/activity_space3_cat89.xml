@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Trans3Cat_8_9"
-    android:background="@drawable/background">
+    android:background="@drawable/light_blue">
 
     <Button
         android:id="@+id/buttunSpace3_8_9"
@@ -14,7 +14,7 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="364dp"
         android:layout_marginEnd="156dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Exhibit 3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -28,7 +28,7 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="156dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Exhibit 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -40,16 +40,18 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="132dp"
-        android:background="@color/lightPink"
+        android:background="@color/darkblue"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="64dp"
+        android:background="@drawable/textview_border"
         android:text="89 Please Chose your Fav Booths:"
-        android:textColor="#AD1457"
+        android:textAlignment="center"
+        android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view"
@@ -64,7 +66,7 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="220dp"
         android:layout_marginEnd="156dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Exhibit 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"

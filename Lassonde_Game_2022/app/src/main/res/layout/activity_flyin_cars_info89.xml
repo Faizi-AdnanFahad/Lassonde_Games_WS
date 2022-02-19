@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Trans3Cat_8_9"
-    android:background="@drawable/background">
+    android:background="@drawable/pink_mountaints">
 
 
 <!--    <RadioButton-->
@@ -114,18 +114,6 @@
             android:text="Option 3" />
 
     </RadioGroup>
-
-    <TextView
-        android:id="@+id/labelOutput"
-        android:layout_width="135dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="139dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="75dp"
-        android:text="nothing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <!--    <RadioGroup-->
 <!--        android:id="@+id/radioGroup"-->

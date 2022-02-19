@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Trans3Cat_8_9"
-    android:background="@drawable/background">
-
+    android:background="@drawable/light_blue">
 
     <Button
         android:id="@+id/buttonTrafficReduction_10_11"
         android:layout_width="223dp"
         android:layout_height="85dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Traffic Reduction"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +23,7 @@
         android:id="@+id/buttonSelfDrivingCars_10_11"
         android:layout_width="223dp"
         android:layout_height="85dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Self driving cars"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,16 +36,18 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="132dp"
-        android:background="@color/lightPink"
+        android:background="@color/darkblue"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="392dp"
+        android:layout_height="63dp"
+        android:background="@drawable/textview_border"
         android:text="1011 Please Chose your Fav Booths:"
-        android:textColor="#AD1457"
+        android:textAlignment="center"
+        android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view"
@@ -59,7 +60,7 @@
         android:layout_width="223dp"
         android:layout_height="85dp"
         android:layout_marginTop="72dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Flying Cars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

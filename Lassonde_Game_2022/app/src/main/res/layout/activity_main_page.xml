@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainPage"
-    android:background="@drawable/background">
+    android:background="@drawable/light_blue">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="293dp"
-        android:layout_height="206dp"
+        android:layout_width="288dp"
+        android:layout_height="168dp"
         android:layout_marginTop="132dp"
-
+        android:background="@drawable/textview_border"
         android:text="Welcome to the Ontario Science Fair's Diamond Anniversary"
         android:textAlignment="center"
-        android:textColor="@color/lightPink"
+        android:textColor="#070549"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,23 +25,25 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="251dp"
-        android:layout_height="22dp"
+        android:layout_width="287dp"
+        android:layout_height="25dp"
         android:layout_marginTop="70dp"
+        android:background="@drawable/textview_border"
         android:text="Follow Mickey to start the adventure!"
         android:textAlignment="center"
-        android:textColor="@color/lightPink"
+        android:textColor="#070549"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/buttonFollowMe"
-        android:layout_width="135dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="136dp"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
         android:layout_marginBottom="144dp"
-        android:backgroundTint="#AD1457"
+        android:backgroundTint="#070549"
         android:text="Follow Me"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

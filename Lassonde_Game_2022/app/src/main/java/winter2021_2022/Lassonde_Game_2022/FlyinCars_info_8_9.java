@@ -46,7 +46,7 @@ public class FlyinCars_info_8_9 extends AppCompatActivity {
 
                         break;
                     case 1: // secondbutton
-                        Toast.makeText(getApplicationContext(), "Incorrect! Please select another option " + index, 500).show();
+                        Toast.makeText(getApplicationContext(), "Incorrect! Please " + index, 500).show();
                         break;
                     case 2: // thirdbutton
                         Toast.makeText(getApplicationContext(), "Incorrect! Please select another option! " + index, 500).show();
