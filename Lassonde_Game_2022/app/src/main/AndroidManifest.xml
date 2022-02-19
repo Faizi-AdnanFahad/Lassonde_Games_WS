@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightStation">
         <activity
+            android:name=".TranspSpace12_13"
+            android:exported="false" />
+        <activity
+            android:name=".TranspSpace10_11"
+            android:exported="false" />
+        <activity
             android:name=".TranspSpace8_9"
             android:exported="false" />
         <activity
