@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightStation">
         <activity
+            android:name=".Space3Cat_12_13"
+            android:exported="false" />
+        <activity
+            android:name=".Space3Cat_10_11"
+            android:exported="false" />
+        <activity
+            android:name=".Space3Cat_8_9"
+            android:exported="false" />
+        <activity
             android:name=".Trans3Cat_12_13"
             android:exported="false" />
         <activity
