@@ -20,7 +20,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="89 Flying Cars:"
+        android:text="Flying Cars"
         android:textColor="#070549"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -74,12 +74,12 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="321dp"
-        android:layout_height="40dp"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
         android:layout_marginStart="51dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="39dp"
-        android:text="What is flying cars flying cars flying cars flying cars flgying cars?"
+        android:text="Based on the information given, what makes flying cars extremely fast?"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -103,19 +103,19 @@
             android:id="@+id/radioButtonMoon1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 1" />
+            android:text="Its price" />
 
         <RadioButton
             android:id="@+id/radio_button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 2" />
+            android:text="Its model" />
 
         <RadioButton
             android:id="@+id/radio_button3"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="Option 3" />
+            android:layout_height="wrap_content"
+            android:text="Its lightweight" />
 
     </RadioGroup>
 
